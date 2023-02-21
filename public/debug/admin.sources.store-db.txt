@@ -1,6 +1,0 @@
-INSERT INTO `sources` (`name`,`type`,`trans`,`sort`,`created_at`) VALUES (:name,:type,:trans,:sort,:created_at)
-
-
-LAST_INSERT_ID();
-
-

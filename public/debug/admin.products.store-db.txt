@@ -1,9 +1,0 @@
-SELECT max(`sort`) FROM `products`
-
-
-INSERT INTO `products` (`name`,`area_id`,`url_id`,`trans`,`sort`,`created_at`) VALUES (:name,:area_id,:url_id,:trans,:sort,:created_at)
-
-
-LAST_INSERT_ID();
-
-

@@ -1,9 +1,0 @@
-SELECT * FROM `sources` ORDER BY `sort` asc LIMIT ?, ?
-
-
-SELECT * FROM `stats` WHERE `rout` = ? LIMIT 1
-
-
-UPDATE `stats` SET `cp`=:cp,`count`=:count,`duration`=:duration,`memory`=:memory,`count_db`=:count_db,`duration_db`=:duration_db,`cp_all`=:cp_all,`duration_all`=:duration_all,`memory_all`=:memory_all,`count_db_all`=:count_db_all,`duration_db_all`=:duration_db_all,`cp_average`=:cp_average,`duration_average`=:duration_average,`memory_average`=:memory_average,`count_db_average`=:count_db_average,`duration_db_average`=:duration_db_average,`updated_at`=:updated_at WHERE `id`=:id LIMIT 1
-
-

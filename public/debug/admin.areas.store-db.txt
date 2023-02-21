@@ -1,6 +1,0 @@
-INSERT INTO `areas` (`name`,`trans`,`sort`,`created_at`) VALUES (:name,:trans,:sort,:created_at)
-
-
-LAST_INSERT_ID();
-
-

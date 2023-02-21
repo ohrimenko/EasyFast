@@ -1,9 +1,0 @@
-SELECT max(`sort`) FROM `fields`
-
-
-INSERT INTO `fields` (`name`,`typefield_id`,`product_id`,`value`,`trans`,`sort`,`created_at`) VALUES (:name,:typefield_id,:product_id,:value,:trans,:sort,:created_at)
-
-
-LAST_INSERT_ID();
-
-
