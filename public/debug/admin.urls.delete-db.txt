@@ -1,0 +1,6 @@
+SELECT `products`.* FROM `products` where `url_id` = ? LIMIT 0, 300
+
+
+DELETE FROM `urls` WHERE `id`=:id LIMIT 1
+
+

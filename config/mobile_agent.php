@@ -1,0 +1,26 @@
+<?php
+
+return array(
+    'ipad',
+    'iphone',
+    'android',
+    'pocket',
+    'palm',
+    'windows ce',
+    'windowsce',
+    'cellphone',
+    'opera mobi',
+    'ipod',
+    'small',
+    'sharp',
+    'sonyericsson',
+    'symbian',
+    'opera mini',
+    'nokia',
+    'htc_',
+    'samsung',
+    'motorola',
+    'smartphone',
+    'blackberry',
+    'playstation portable',
+    'tablet browser');
