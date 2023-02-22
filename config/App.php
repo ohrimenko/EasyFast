@@ -1,35 +1,17 @@
 <?php
 
 return [
-   'default_db' => 'local',
+   'default_db' => 'mysql',
    
    // Партиционирование таблиц в mySQL. Выполнить для уменьшения нагрузки
    'db' => [
         'mysql' => [
             'DRIVER' => 'mysql',
             'DB_PERSISTENCY' => true,
-            'DB_SERVER' => 'v63216hf.beget.tech',
-            'DB_DATABASE' => 'v63216hf_shop',
-            'DB_USERNAME' => 'v63216hf_shop',
-            'DB_PASSWORD' => 'RlQR9r&4',
-            'DB_CHARSET' => 'utf8',
-        ],
-        'local' => [
-            'DRIVER' => 'mysql',
-            'DB_PERSISTENCY' => true,
             'DB_SERVER' => 'localhost',
-            'DB_DATABASE' => 'shop',
-            'DB_USERNAME' => 'root',
-            'DB_PASSWORD' => '576453545',
-            'DB_CHARSET' => 'utf8',
-        ],
-        'webtenor.com' => [
-            'DRIVER' => 'mysql',
-            'DB_PERSISTENCY' => true,
-            'DB_SERVER' => 'db5010809906.hosting-data.io',
-            'DB_DATABASE' => 'dbs9145518',
-            'DB_USERNAME' => 'dbu1253204',
-            'DB_PASSWORD' => 'v8!en63zebvJ6rK',
+            'DB_DATABASE' => 'user',
+            'DB_USERNAME' => 'dbname',
+            'DB_PASSWORD' => 'psw',
             'DB_CHARSET' => 'utf8',
         ],
     ],
